@@ -2,10 +2,6 @@
 ###  A simulation platform for Electric-taxi Ride-Hailing System.
 Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (attack and detection algorithm), interaction between EVs and EV charging stations (EVCSs).
 
-<img src="https://github.com/sguo28/multimodal-transit-viz/raw/main/dca_viz.gif" width="500" height="400">
-
-Red dots: EVCS under attack. Blue dots: EVCS removed for repair. Green dots: EVCS under normal operation.
-
 ### Primary contributors 
 Shuocheng Guo (U Alabama) and Xinwu Qian (U Alabama).
 
@@ -17,6 +13,13 @@ We are happy to help if you have any questions. If you used any part of the code
   journal={arXiv preprint arXiv:2302.01972},
   year={2023}
 }
+
+### Visualization of the simulation platform
+
+<img src="https://github.com/sguo28/multimodal-transit-viz/raw/main/dca_viz.gif" width="500" height="400">
+
+Red dots: EVCS under attack. Blue dots: EVCS removed for repair. Green dots: EVCS under normal operation.
+
 
 ### Our previous work for Gasoline-Taxi-based Ride-Hailing System
 This simulation platform is extended from our previous work "[DROP: Deep relocating option policy for optimal ride-hailing vehicle repositioning](https://www.sciencedirect.com/science/article/pii/S0968090X22003369)" that was accepted by Transportation Research Part C: Emerging Technologies (see [Github repo here](https://github.com/sguo28/DROP_Simulator)).
