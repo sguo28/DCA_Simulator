@@ -30,4 +30,4 @@ The preprocessed large files can be fetched via [OneDrive](https://bama365-my.sh
 
 #### Visualization
 
-<video src="https://sguo28.github.io/multimodal-transit-viz/dca_v3.mov" width=180/>
+<video src= "https://sguo28.github.io/multimodal-transit-viz/dca_v3.mov"" width=180/>
