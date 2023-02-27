@@ -23,6 +23,7 @@ H_AGENT_SAVE_PATH = 'logs/test/h_agent/'
 F_AGENT_SAVE_PATH = 'logs/test/f_agent/'
 OPTION_DQN_SAVE_PATH = 'logs/test/agent_with_option/'
 TERMINAL_STATE_SAVE_PATH  = 'logs/test/terminal_states/'
+
 ### state-action space dimension
 NUM_REACHABLE_HEX =  1347
 DIM_OF_CHARGING = 5
