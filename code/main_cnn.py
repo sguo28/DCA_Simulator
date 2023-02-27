@@ -18,7 +18,7 @@ def main(args,HEX_SHP_PATH,CS_DATA_PATH, NUM_NEAREST_CS, TRIP_FILE, TRAVEL_TIME_
          START_TIME, RELOCATION_DIM):
 
     if SIM_DAYS > 0:
-        start_time = START_TIME + int(60 * 60 * 24 * START_OFFSET)  # start_time = 0
+        start_time = START_TIME + int(60 * 60 * 24 * START_OFFSET)
         print("Simulate Episode Start Datetime: {}".format(get_local_datetime(start_time)))
         end_time = start_time + int(60 * 60 * 24 * SIM_DAYS)
         print("Simulate Episode End Datetime : {}".format(get_local_datetime(end_time)))
@@ -116,23 +116,6 @@ def main(args,HEX_SHP_PATH,CS_DATA_PATH, NUM_NEAREST_CS, TRIP_FILE, TRAVEL_TIME_
                                  occupancy_rates, queuing_time) \
                                     = simulator.summarize_metrics(g, m1, n1,c1,f4, day)
 
-                                # writer.add_scalar('system_metrics/average_cumulated_earning',average_cumulated_earning,tick//60)
-                                # writer.add_scalar('system_metrics/fulfillment_rate',total_num_served_pass/(total_passengers+1),tick//60)
-                                # writer.add_scalar('system_metrics/occupied_rate',(veh_count_by_status[2])/args.n_vehicles,tick//60) # have passengers onboard
-                                # writer.add_scalar('system_metrics/n_matches',n_matches,tick//60)
-                                # writer.add_scalar('system_metrics/cs_utilization_rate',np.mean(occupancy_rates),tick//60)
-                                # if queuing_time:
-                                #     writer.add_scalar('system_metrics/avg_queuing_time',np.mean(queuing_time)/60,tick//60)
-
-                                # writer.add_scalar('veh_states/num_idle',veh_count_by_status[0],tick//60)
-                                # writer.add_scalar('veh_states/num_cruising',veh_count_by_status[1],tick//60)
-                                # writer.add_scalar('veh_states/num_occupied',veh_count_by_status[2],tick//60)
-                                # writer.add_scalar('veh_states/num_assigned',veh_count_by_status[3],tick//60)
-                                # writer.add_scalar('veh_states/num_waytocharge',veh_count_by_status[5],tick//60)
-                                # writer.add_scalar('veh_states/num_charging',veh_count_by_status[6],tick//60)
-                                # writer.add_scalar('veh_states/num_waitpile',veh_count_by_status[7],tick//60)
-                                # writer.add_scalar('veh_states/num_tobedisptached',veh_count_by_status[8],tick//60)
-
                                 writer.add_scalar('cyberattack_status/ev_S', veh_0,global_step=tick//60)
                                 writer.add_scalar('cyberattack_status/ev_I', veh_1,global_step=tick//60)
                                 writer.add_scalar('cyberattack_status/evcs_S', evcs_0, global_step=tick // 60)
@@ -145,36 +128,11 @@ def main(args,HEX_SHP_PATH,CS_DATA_PATH, NUM_NEAREST_CS, TRIP_FILE, TRAVEL_TIME_
 
                                 f1.writelines(f"{tick},{average_cumulated_earning},{total_num_served_pass/(total_passengers+1)},{(veh_count_by_status[2])/args.n_vehicles},{n_matches}\n")
 
-                                # f2.writelines(f"{tick},{veh_count_by_status[0]},{veh_count_by_status[1]},{veh_count_by_status[2]},{veh_count_by_status[3]},{veh_count_by_status[5]},{veh_count_by_status[6]},{veh_count_by_status[7]},{veh_count_by_status[8]}\n")
-
                                 f3.writelines(f"{tick},{veh_0},{veh_1},{evcs_0},{evcs_1},{evcs_2},{detector_metrics[0]},{detector_metrics[1]},{detector_metrics[2]},{detector_metrics[3]}\n")
 
 
-                                # f.writelines('{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}\n'.format(tick, veh_count_by_status[0], veh_count_by_status[2] ,
-                                #                                                              veh_count_by_status[6], veh_count_by_status[1],
-                                #                                                              veh_count_by_status[3], veh_count_by_status[7],
-                                #                                                              veh_count_by_status[8], veh_count_by_status[5],
-                                #                                                              average_idle_time,
-                                #                                                              n_matches,
-                                #                                                              total_num_longwait_pass,
-                                #                                                              total_num_served_pass,
-                                #                                                              total_passengers,
-                                #                                                              average_reduced_SOC,
-                                #                                                              average_cumulated_earning))
-
-                                # dump transitions to DQN module
-                                # simulator.store_transitions_from_veh()
-                                # simulator.store_f_action_from_veh()
-                                # simulator.store_prime_action_from_veh()
-                                # simulator.store_trajectory_from_veh()
                                 simulator.reset_storage()
                         print(f"############################ DAY {day} of {SIM_DAYS} END ################################")
-
-                        # last step transaction dump
-                        # tick = simulator.get_current_time()
-                        # simulator.store_global_states()
-                        # simulator.last_step_transactions(tick)
-                        # now reset transition and global state
                         simulator.reset_storage()
                 writer.close()
 
@@ -201,7 +159,6 @@ if __name__ == '__main__':
     arg.add_argument("--start_day_of_attack", "-sdoa", default=1, type=int, help="start day of attack")
 
     arg.add_argument("--test", "-test", default=0, type=bool, help="test or not")
-
 
     args = arg.parse_args()
     # start simulation.
