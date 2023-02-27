@@ -29,4 +29,5 @@ This simulation platform is extended from our previous work "[DROP: Deep relocat
 The preprocessed large files can be fetched via [OneDrive](https://bama365-my.sharepoint.com/:f:/g/personal/sguo18_crimson_ua_edu/Etn1ZPhQ20ZNicLpYbCKyyQBy8QlqGfm4kmaEbIugTXiew?e=8uqPSw).
 
 #### Visualization
-https://sguo28.github.io/multimodal-transit-viz/dca_v3.mov
+
+<video src="https://sguo28.github.io/multimodal-transit-viz/dca_v3.mov" width=180/>
