@@ -1,10 +1,10 @@
 ## Code implementation for "DCA: Delayed Charging Attack on the Electric Shared Mobility System"
 ###  A Simulation Platform for Electric-Taxi Ride-Hailing System.
-**Primary contributors: Shuocheng Guo and Xinwu Qian**
+**Primary contributors: Shuocheng Guo (U Alabama) and Xinwu Qian (U Alabama)**
 
 <img src="https://github.com/sguo28/multimodal-transit-viz/raw/main/dca_viz.gif" width="500" height="400">
 
-Red dots: EVCS under attack. Blue dots: EVCS removed for repair. Green dots: EVCS under normal operation.
+(Red dots: EVCS under attack. Blue dots: EVCS removed for repair. Green dots: EVCS under normal operation.)
 
 Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (attack and detection algorithm), interaction between EVs and EV charging stations (EVCSs).
 
