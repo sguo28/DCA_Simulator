@@ -11,7 +11,6 @@ from novelties.config_parser import config_parser # organize the config file of 
 from simulator.simulator_cnn import Simulator
 from torch.utils.tensorboard import SummaryWriter
 import numpy as np
-import time
 
 # ---------------MAIN FILE---------------
 def main(args,HEX_SHP_PATH,CS_DATA_PATH, NUM_NEAREST_CS, TRIP_FILE, TRAVEL_TIME_FILE,TIMESTEP, START_OFFSET, SIM_DAYS,

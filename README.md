@@ -38,14 +38,13 @@ The preprocessed large files can be fetched via [OneDrive](https://bama365-my.sh
 #### 1. Clone the repo
 ```bash
 git clone https://github.com/sguo28/DCA_Simulator.git
+cd DCA_Simulator/code
 ```
-#### 2. Install the dependencies
-```bash
-pip install -r requirements.txt
-```
-#### 3. Download the data
+#### 2. Download the data
+
 Download the data from [OneDrive](https://bama365-my.sharepoint.com/:f:/g/personal/sguo18_crimson_ua_edu/Etn1ZPhQ20ZNicLpYbCKyyQBy8QlqGfm4kmaEbIugTXiew?e=8uqPSw) and put them in the `data` folder.
-#### 4. Run the code
+
+#### 3. Run the code
 ```bash
 python main_cnn.py
 ```
