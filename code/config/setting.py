@@ -14,7 +14,6 @@ HEX_SHP_PATH = '../data/NYC_shapefiles/snapped_clustered_hex.shp'  # '../data/NY
 TRIP_FILE = '../data/trip_od_hex.csv'
 TRAVEL_TIME_FILE = '../data/trip_time_od_hex.csv'
 CS_DATA_PATH = '../data/cs_snap_unique.csv'  # '../data/cs_snap_lonlat.csv'
-ALL_HEX_ROUTE_FILE = '../data/all_routes.pkl'
 HEX_ROUTE_FILE = '../data/hex_routes.pkl'  # the route between necessary pair of hex zone
 MODEL_SAVE_PATH = 'logs/dqn_model'  # 'logs/dqn_model/dqn.pkl'
 CNN_SAVE_PATH = 'logs/test/cnn_dqn_model'  # 'logs/dqn_model/dqn.pkl'
