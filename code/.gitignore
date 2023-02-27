@@ -1,0 +1,8 @@
+logs/
+logs/final_greedy/
+logs/final_greedy_trb/
+logs/final_trb/
+tf_logs/
+tf_logs/ieee/
+tf_logs/final_greedy_trb/
+tf_logs/test_ieee/

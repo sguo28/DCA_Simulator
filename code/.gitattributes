@@ -1,0 +1,4 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*/*.csv filter=lfs diff=lfs merge=lfs -text
+logs/*.csv filter=lfs diff=lfs merge=lfs -text
+logs/output0charge.csv filter=lfs diff=lfs merge=lfs -text
