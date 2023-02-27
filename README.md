@@ -17,6 +17,7 @@ This simulation platform is extended from our previous work "[DROP: Deep relocat
 @article{qian2022drop, title={DROP: Deep relocating option policy for optimal ride-hailing vehicle repositioning}, author={Qian, Xinwu and Guo, Shuocheng and Aggarwal, Vaneet}, journal={Transportation Research Part C: Emerging Technologies}, volume={145}, pages={103923}, year={2022}, publisher={Elsevier} }
 
 ### Prerequisite
+
 #### Data Sources
 |Data|Link|
 |-|-|
@@ -26,3 +27,6 @@ This simulation platform is extended from our previous work "[DROP: Deep relocat
 #### Data Preprocessing
 
 The preprocessed large files can be fetched via [OneDrive](https://bama365-my.sharepoint.com/:f:/g/personal/sguo18_crimson_ua_edu/Etn1ZPhQ20ZNicLpYbCKyyQBy8QlqGfm4kmaEbIugTXiew?e=8uqPSw).
+
+#### Visualization
+https://sguo28.github.io/multimodal-transit-viz/dca_v3.mov
