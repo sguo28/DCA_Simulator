@@ -6,15 +6,16 @@
 
 (Red dots: EVCS under attack. Blue dots: EVCS removed for repair. Green dots: EVCS under normal operation.)
 
-Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (attack and detection algorithm), interaction between EVs and EV charging stations (EVCSs).
+Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (attack and detection algorithm), and interaction between EVs and EV charging stations (EVCSs).
 
-### Preprint
+### Journal Publication
+Our paper has been accepted by IEEE Transactions on Intelligent Transportation Systems. 
 We are happy to help if you have any questions. If you used any part of the code, please cite the following paper (see [Arxiv preprint](https://arxiv.org/abs/2302.01972))
 
 @article{guo2023dca,
   title={DCA: Delayed Charging Attack on the Electric Shared Mobility System},
   author={Guo, Shuocheng and Chen, Hanlin and Rahman, Mizanur and Qian, Xinwu},
-  journal={arXiv preprint arXiv:2302.01972},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
   year={2023}
 }
 
