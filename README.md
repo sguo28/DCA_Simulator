@@ -10,7 +10,7 @@ Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (
 
 ### Journal Publication
 Our paper has been accepted by IEEE Transactions on Intelligent Transportation Systems. 
-We are happy to help if you have any questions. If you used any part of the code, please cite the following paper (see [guo2023dca](https://ieeexplore.ieee.org/document/10167758)
+We are happy to help if you have any questions. If you used any part of the code, please cite the following paper (see [guo2023dca](https://ieeexplore.ieee.org/document/10167758))
 
 @ARTICLE{guo2023dca,
   author={Guo, Shuocheng and Chen, Hanlin and Rahman, Mizanur and Qian, Xinwu},
