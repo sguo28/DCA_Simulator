@@ -10,14 +10,19 @@ Key features: Routing, Charging, Repositioning, Matching, Cybersecurity module (
 
 ### Journal Publication
 Our paper has been accepted by IEEE Transactions on Intelligent Transportation Systems. 
-We are happy to help if you have any questions. If you used any part of the code, please cite the following paper (see [Arxiv preprint](https://arxiv.org/abs/2302.01972))
+We are happy to help if you have any questions. If you used any part of the code, please cite the following paper (see [guo2023dca](https://ieeexplore.ieee.org/document/10167758)
 
-@article{guo2023dca,
-  title={DCA: Delayed Charging Attack on the Electric Shared Mobility System},
+@ARTICLE{guo2023dca,
   author={Guo, Shuocheng and Chen, Hanlin and Rahman, Mizanur and Qian, Xinwu},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2023}
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={DCA: Delayed Charging Attack on the Electric Shared Mobility System}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TITS.2023.3287792}
 }
+  
 
 ### Our previous work for Gasoline-Taxi-based Ride-Hailing System
 This simulation platform is extended from our previous work "[DROP: Deep relocating option policy for optimal ride-hailing vehicle repositioning](https://www.sciencedirect.com/science/article/pii/S0968090X22003369)" that was accepted by Transportation Research Part C: Emerging Technologies (see [Github repo here](https://github.com/sguo28/DROP_Simulator)).
